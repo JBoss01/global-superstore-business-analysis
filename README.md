@@ -94,12 +94,12 @@ Management lacked a single, interactive view of business performance. Key questi
 ---
 
 ## 📁 Project Structure
+```text
 ├── Global_Superstore_Dashboard.pbix
 ├── BI_Overview_and_Executive_Summary_Report.docx
 ├── README.md
 └── screenshots/
-text
-
+```
 ---
 
 ## 🎓 Skills Demonstrated
