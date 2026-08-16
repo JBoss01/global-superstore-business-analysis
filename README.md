@@ -1,8 +1,13 @@
 # Global Superstore Business Intelligence Dashboard
 
+<div align="center">
+
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Data Analytics](https://img.shields.io/badge/Data%20Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-FF6F00?style=for-the-badge)
+
+</div>
+
 
 **Week 2 Project | Data Analytics Internship – AnalystLab Africa Consulting**
 
@@ -93,6 +98,7 @@ Management lacked a single, interactive view of business performance. Key questi
 ├── BI_Overview_and_Executive_Summary_Report.docx
 ├── README.md
 └── screenshots/
+text
 
 ---
 
