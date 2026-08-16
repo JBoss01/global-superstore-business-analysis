@@ -102,6 +102,21 @@ Management lacked a single, interactive view of business performance. Key questi
 ```
 ---
 
+## 📄 Reports
+- [Business Intelligence Overview Report](./BI_Overview_Report.md)
+- [Executive Summary Report](./Executive_Summary_Report.md)
+
+## 📸 Dashboard Screenshots
+
+Executive Overview
+<image-card alt="Executive Overview" src="./screenshots/executive-overview.png" ></image-card>
+
+Regional & Market Performance
+<image-card alt="Regional Performance" src="./screenshots/regional-performance.png" ></image-card>
+
+Insights & Recommendations
+<image-card alt="Insights" src="./screenshots/insights-recommendations.png" ></image-card>
+
 ## 🎓 Skills Demonstrated
 
 - Data cleaning and transformation
