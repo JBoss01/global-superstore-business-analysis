@@ -13,6 +13,7 @@
 This project involves the end-to-end development of an interactive **Business Intelligence dashboard** using Microsoft Power BI. The dashboard was built to help senior management of a retail company monitor sales performance, profitability, customer behaviour, and regional results.
 
 **Dataset:** Global Superstore (51,290 transactions | 147 countries | 2011–2014)
+https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset
 
 ---
 
