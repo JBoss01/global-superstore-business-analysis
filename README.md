@@ -1,28 +1,39 @@
-# Global Superstore Business Intelligence Dashboard
+# Global Superstore Business Intelligence & Data Science Project
 
 <div align="center">
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Data Analytics](https://img.shields.io/badge/Data%20Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-FF6F00?style=for-the-badge)
 
 </div>
 
+**AnalystLab Africa Consulting | Data Analytics & Data Science Internship**  
+**Analyst:** Ozoeze Wilord Ugonna
 
-**Week 2 Project | Data Analytics Internship – AnalystLab Africa Consulting**
+**Dataset:** Global Superstore (51,290 transactions | 147 countries | 2011–2014)  
+https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset
 
 ---
 
 ## 📌 Project Overview
 
-This project involves the end-to-end development of an interactive **Business Intelligence dashboard** using Microsoft Power BI. The dashboard was built to help senior management of a retail company monitor sales performance, profitability, customer behaviour, and regional results.
+This repository contains the end-to-end analysis of the Global Superstore dataset, progressing from Business Intelligence dashboarding to advanced statistical analysis and feature engineering in preparation for machine learning.
 
-**Dataset:** Global Superstore (51,290 transactions | 147 countries | 2011–2014)
-https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset
+| Week | Focus | Status |
+|------|--------|--------|
+| **Week 2** | Interactive Power BI Dashboard & Executive Reporting | Completed |
+| **Week 3** | Advanced EDA, Statistical Validation & Feature Engineering | Completed |
+| **Week 4** | Machine Learning Model Development | Upcoming |
 
 ---
 
-## 🎯 Business Problem
+# 🟦 WEEK 2 — Business Intelligence Dashboard
+
+**Week 2 Project | Data Analytics Internship – AnalystLab Africa Consulting**
+
+## Business Problem
 
 Management lacked a single, interactive view of business performance. Key questions that needed answering included:
 
@@ -33,9 +44,7 @@ Management lacked a single, interactive view of business performance. Key questi
 - What trends can be observed over time?
 - What recommendations should management implement?
 
----
-
-## 🛠️ Project Workflow
+## Project Workflow
 
 ### 1. Data Preparation (Power Query)
 - Converted Order Date and Ship Date from text to Date format
@@ -69,9 +78,7 @@ Management lacked a single, interactive view of business performance. Key questi
 - 3 Business Opportunities
 - 5 Actionable Recommendations
 
----
-
-## 📊 Key Insights
+## Key Insights (Week 2)
 
 | Insight | Finding |
 |---------|---------|
@@ -82,61 +89,137 @@ Management lacked a single, interactive view of business performance. Key questi
 | Growth Trend | Consistent year-on-year growth (2011–2014) |
 | Profit Challenge | Tables sub-category recorded losses |
 
+## Tools Used (Week 2)
+- Microsoft Power BI Desktop
+- Power Query
+- DAX
+- Global Superstore Dataset
+
+## Dashboard Screenshots
+
+**Executive Overview**  
+![Executive Overview](./screenshots/executive-overview.png)
+
+**Regional & Market Performance**  
+![Regional Performance](./screenshots/regional-performance.png)
+
+**Insights & Recommendations**  
+![Insights](./screenshots/insights-recommendations.png)
+
+## Week 2 Reports
+- [Business Intelligence Overview Report](./BI_Overview_Report.md)
+- [Executive Summary Report](./Executive_Summary_Report.md)
+
 ---
 
-## 🧰 Tools & Technologies
+# 🟩 WEEK 3 — Advanced Data Analysis, Statistical Validation & Feature Engineering
 
-- **Microsoft Power BI Desktop**
-- **Power Query** (Data cleaning & transformation)
-- **DAX** (KPI measures)
-- **Global Superstore Dataset**
+**Week 3 Project | Data Science Internship – AnalystLab Africa Consulting**
+
+## Objective
+
+Build on the cleaned Week 2 dataset to perform deeper analysis, validate key business assumptions with statistical tests, engineer meaningful features, and produce a modelling-ready dataset for Week 4 machine learning.
+
+## What Was Done
+
+- Advanced Exploratory Data Analysis (new insights, not a repeat of Week 1/2 charts)
+- **4 statistical hypothesis tests** with full documentation (H₀, H₁, method, p-value, business meaning)
+- **4 engineered features** with clear business justification
+- Feature evaluation and selection decisions
+- Export of a final modelling dataset
+- Business Insights & Recommendations Report
+
+## Key Findings (Week 3)
+
+- Overall profit margin ≈ **11.6%**
+- **24.5%** of orders are loss-making
+- Discounted orders average **−$13.60** profit vs **+$61** for non-discounted orders
+- **Technology** has the highest average profit; **Furniture** has the highest loss rate (~32%)
+- Discount policy is a major driver of margin leakage
+
+## Statistical Tests Performed
+
+1. **Kruskal-Wallis** – Profit across Categories  
+2. **Mann-Whitney U** – Discounted vs Non-discounted Profit  
+3. **Chi-Square** – Segment vs Order Priority  
+4. **Spearman correlations** – Sales, Discount, Shipping Cost vs Profit  
+
+## Engineered Features
+
+| Feature | Description |
+|---------|-------------|
+| `Profit_Margin` | Profit ÷ Sales |
+| `Is_Loss_Making` | 1 if Profit < 0, else 0 |
+| `Discount_Impact` | Sales × Discount |
+| `Shipping_Efficiency` | Shipping Cost ÷ Sales |
+| `Days_to_Ship` | Ship Date − Order Date (days) |
+
+## Tools Used (Week 3)
+- Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+- GitHub
+
+## Week 3 Reports
+- [Project Continuity Summary](./reports/01_Project_Continuity_Summary.md)
+- [Statistical Analysis Summary](./reports/02_Statistical_Analysis_Summary.md)
+- [Feature Engineering Documentation](./reports/03_Feature_Engineering_Documentation.md)
+- [Feature Evaluation & Selection Summary](./reports/04_Feature_Evaluation_Selection_Summary.md)
+- [Business Insights & Recommendations Report](./reports/05_Business_Insights_Recommendations_Report.md)
 
 ---
 
 ## 📁 Project Structure
+
 ```text
+global-superstore-business-analysis/
+├── data/
+│   └── modelling/
+│       └── global_superstore_modelling_dataset.csv
+├── notebooks/
+│   └── week3_advanced_analysis.ipynb
+├── reports/
+│   ├── 01_Project_Continuity_Summary.md
+│   ├── 02_Statistical_Analysis_Summary.md
+│   ├── 03_Feature_Engineering_Documentation.md
+│   ├── 04_Feature_Evaluation_Selection_Summary.md
+│   └── 05_Business_Insights_Recommendations_Report.md
+├── screenshots/
+│   ├── executive-overview.png
+│   ├── regional-performance.png
+│   └── insights-recommendations.png
 ├── Global_Superstore_Dashboard.pbix
-├── BI_Overview_and_Executive_Summary_Report.docx
+├── BI_Overview_Report.md
+├── Executive_Summary_Report.md
 ├── README.md
-└── screenshots/
+└── requirements.txt
 ```
 ---
 
-## 📄 Reports
-- [Business Intelligence Overview Report](./BI_Overview_Report.md)
-- [Executive Summary Report](./Executive_Summary_Report.md)
+🎓 Skills Demonstrated
+Week 2
 
-## 📸 Dashboard Screenshots
+Data cleaning and transformation (Power Query)
+DAX measure development
+Interactive dashboard design
+Business analysis and data storytelling
 
-Executive Overview
-<image-card alt="Executive Overview" src="./screenshots/executive-overview.png" ></image-card>
+Week 3
 
-Regional & Market Performance
-<image-card alt="Regional Performance" src="./screenshots/regional-performance.png" ></image-card>
-
-Insights & Recommendations
-<image-card alt="Insights" src="./screenshots/insights-recommendations.png" ></image-card>
-
-## 🎓 Skills Demonstrated
-
-- Data cleaning and transformation
-- DAX measure development
-- Interactive dashboard design
-- Business analysis and insight generation
-- Data storytelling
-- Strategic recommendation writing
-- Professional documentation
+Advanced exploratory data analysis
+Statistical hypothesis testing & interpretation
+Feature engineering
+Feature evaluation and selection
+Preparation of modelling-ready datasets
+Professional technical documentation
 
 ---
 
-## 👤 Author
-
-**Ozoeze Wilord Ugonna**  
-Junior Business Intelligence Analyst  
-Data Analytics Internship – AnalystLab Africa Consulting
+👤 Author
+Ozoeze Wilord Ugonna
+Junior Data Analyst / Data Scientist
+AnalystLab Africa Consulting
 
 ---
 
-## 📄 License
-
+📄 License
 This project was completed as part of a professional internship assignment.
