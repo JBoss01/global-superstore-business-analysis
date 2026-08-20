@@ -217,7 +217,7 @@ Professional technical documentation
 
 👤 Author
 Ozoeze Wilord Ugonna
-Junior Data Analyst / Data Scientist
+Junior Data Scientist
 AnalystLab Africa Consulting
 
 ---
