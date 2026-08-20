@@ -112,6 +112,7 @@ Management lacked a single, interactive view of business performance. Key questi
 
 ---
 
+
 # 🟩 WEEK 3 — Advanced Data Analysis, Statistical Validation & Feature Engineering
 
 **Week 3 Project | Data Science Internship – AnalystLab Africa Consulting**

@@ -78,12 +78,10 @@ To analyse sales and profit performance, identify loss-making patterns, validate
 | Week | Focus | Output |
 |------|--------|--------|
 | Week 1 | Business understanding & initial EDA | Patterns, risks, first insights |
-| Week 2 | Data cleaning & preparation | Clean, structured dataset |
+| Week 2 | Data cleaning & preparation | Clean, structured dataset | Visualization
 | **Week 3** | **Advanced EDA, hypothesis testing, feature engineering & evaluation** | **Statistically validated insights + modelling-ready dataset** |
 | Week 4 | Machine learning models | Predictive models & business recommendations |
 
 Week 3 does **not** restart the project. It deepens the analysis, validates assumptions, creates new features, and prepares the final dataset for predictive modelling.
 
 ---
-
-*End of Project Continuity Summary*

@@ -83,8 +83,5 @@ The exported modelling dataset will contain:
 4. No pure identifiers  
 5. No features that would cause target leakage for the chosen prediction task  
 
-All significant changes from the Week 2 dataset are documented in this summary and in the notebook.
 
 ---
-
-*End of Feature Evaluation and Selection Summary*

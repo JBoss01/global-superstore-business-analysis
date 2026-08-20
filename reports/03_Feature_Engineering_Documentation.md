@@ -114,5 +114,3 @@ For every engineered feature the following were recorded:
 4. Potential value for future analysis or modelling  
 
 ---
-
-*End of Feature Engineering Documentation*

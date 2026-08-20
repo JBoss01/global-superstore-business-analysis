@@ -126,5 +126,3 @@ Spearman rank correlation (robust to skewness and outliers).
 All interpretations focus on **business meaning**, not only p-values.
 
 ---
-
-*End of Statistical Analysis Summary*

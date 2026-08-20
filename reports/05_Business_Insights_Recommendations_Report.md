@@ -101,8 +101,7 @@ The refined modelling dataset produced in Week 3 will support:
 3. Evaluation of model lift versus current rules-based discounting
 4. Final business recommendations backed by both statistical evidence and predictive performance
 
-Week 3 has moved the project from descriptive insight to **validated, feature-rich, modelling-ready evidence**.
+Week 3 will move from descriptive insight to **validated, feature-rich, modelling-ready evidence**.
 
 ---
 
-*End of Business Insights and Recommendations Report*
