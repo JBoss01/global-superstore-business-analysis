@@ -113,7 +113,7 @@ Management lacked a single, interactive view of business performance. Key questi
 ---
 
 
-# 🟩 WEEK 3 — Advanced Data Analysis, Statistical Validation & Feature Engineering
+## 🟩 WEEK 3 — Advanced Data Analysis, Statistical Validation & Feature Engineering
 
 **Week 3 Project | Data Science Internship – AnalystLab Africa Consulting**
 
@@ -196,7 +196,7 @@ global-superstore-business-analysis/
 ```
 ---
 
-🎓 Skills Demonstrated
+## 🎓 Skills Demonstrated
 Week 2
 
 Data cleaning and transformation (Power Query)
@@ -215,12 +215,15 @@ Professional technical documentation
 
 ---
 
-👤 Author
-Ozoeze Wilord Ugonna
-Junior Data Scientist
-AnalystLab Africa Consulting
+## 👤 Author
+
+**Ozoeze Wilord Ugonna**
+
+Data Analyst Intern | Python | PowerBi
+
+AnalystAfrica Data Analysis Internship
 
 ---
 
-📄 License
+## 📄 License
 This project was completed as part of a professional internship assignment.
